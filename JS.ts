@@ -1,4 +1,4 @@
-// Definición del custom element <tour-destino>
+
 class TourDestino extends HTMLElement {
     constructor() {
         super();
@@ -48,10 +48,10 @@ class TourDestino extends HTMLElement {
     }
 }
 
-// Registra el custom element
+
 customElements.define('tour-destino', TourDestino);
 
-// Evento para el botón de contacto
+
 document.addEventListener('DOMContentLoaded', () => {
     const contactoBtn = document.getElementById('contactoBtn');
     if (contactoBtn) {
