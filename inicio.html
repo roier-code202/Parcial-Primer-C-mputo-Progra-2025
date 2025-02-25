@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo en El Salvador</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        .destinos-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .tour-destino {
+            flex: 1 1 calc(50% - 20px);
+            box-sizing: border-box;
+        }
+        .tour-destino img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <div class="logo-title">
+            <img src="images/logo-mitur.png" alt="Logo Ministerio de Turismo" class="logo">
+            <h1>Turismo en El Salvador</h1>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Destinos">Destinos</a></li>
+                <li><a href="#Galeria">Galería</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="Inicio">
+        <h2>Bienvenidos a El Salvador</h2>
+        <p>Descubre la belleza natural y cultural de El Salvador, un país lleno de sorpresas y experiencias únicas.</p>
+    </section>
+
+    
+    <section id="Destinos">
+        <h2>Destinos Turísticos</h2>
+        <div class="destinos-container">
+            <div class="tour-destino">
+                <h3>Playa El Tunco</h3>
+                <p>Una de las playas más famosas para surfear.</p>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/7d/7e/10/el-tunco.jpg?w=1200&h=-1&s=1" alt="Playa El Tunco">
+            </div>
+            <div class="tour-destino">
+                <h3>Volcán de Santa Ana</h3>
+                <p>El volcán más alto de El Salvador con vistas impresionantes.</p>
+                <img src="https://elsalvador.travel/system/wp-content/uploads/2020/01/Volca%CC%81n-Ilamatepeq-Santa-Ana-20.jpg" alt="Volcán de Santa Ana">
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="Galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="galeria-container">
+            <img src="https://elsalvador.travel/system/wp-content/uploads/2020/01/Volca%CC%81n-Ilamatepeq-Santa-Ana-20.jpg" alt="Volcán de Santa Ana">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/7d/7e/10/el-tunco.jpg?w=1200&h=-1&s=1" alt="Playa El Tunco">
+            <img src="images/zonte-01.jpg" alt="Playa El Zonte">
+            <img src="images/1203192_985.jpg" alt="Lago de Coatepeque">
+        </div>
+    </section>
+
+  
+    <footer id="Contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes preguntas? <button id="contactoBtn">Contáctanos</button></p>
+    </footer>
+
+  
+    <script src="JS.js"></script>
+</body>
+</html>
